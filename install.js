@@ -1,10 +1,11 @@
 
-const SM = require("sm").for(__dirname);
+const SM = require("sm");
+const PM = SM.for(__dirname);
 
 
 exports.main = function(callback) {
 	// Install platform specific dependencies.
-	SM.resolve("dev-" + process.platform + "/package.json", function(err, path) {
+	PM.resolve("dev-" + process.platform + "/package.json", function(err, path) {
 		if (err) {
 			if (/Package not found and not declared/.test(err.message)) {
 				return callback(new Error("Platform '" + process.platform + "' not yet supported!"));

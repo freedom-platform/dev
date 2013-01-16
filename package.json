@@ -9,6 +9,6 @@
 		"dev-darwin": "github.com/freedom-platform/dev-darwin/~0.1.0"
 	},
 	"scripts": {
-		"install": "node postinstall.js"
+		"install": "node install.js"
 	}
 }
