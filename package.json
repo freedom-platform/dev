@@ -6,7 +6,7 @@
 		"workspace.js": "./workspace.js"
 	},
 	"mappings": {
-		"sm": "github.com/sourcemint/sm/~0.1.0"
+		"sm": "github.com/sourcemint/sm/~0.3.0"
 	},
 	"optionalMappings": {
 		"dev-darwin": "github.com/freedom-platform/dev-darwin/~0.1.0"
