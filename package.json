@@ -1,0 +1,14 @@
+{
+	"name": "freedom-platform-dev",
+	"version": "0.1.0",
+	"pm": "sm",
+	"mappings": {
+		"sm": "github.com/sourcemint/sm/~0.1.0"
+	},
+	"optionalMappings": {
+		"dev-darwin": "github.com/freedom-platform/dev-darwin/~0.1.0"
+	},
+	"scripts": {
+		"install": "node postinstall.js"
+	}
+}
