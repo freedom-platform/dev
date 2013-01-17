@@ -1,6 +1,11 @@
 
 const SM = require("sm");
-const PM = SM.for(__dirname);
+const PM = SM.for(__dirname, {
+	// TODO: Check for `process.env.SM_VERBOSE`.
+	verbose: true,
+	// TODO: Check for `process.env.SM_NOW`.
+	now: true
+});
 
 
 exports.main = function(callback) {
