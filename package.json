@@ -1,19 +1,19 @@
 {
-	"name": "freedom-platform-dev",
-	"version": "0.1.0",
-	"pm": "sm",
-	"bin": {
-		"workspace.js": "./workspace.js"
-	},
-	"mappings": {
-		"sm": "github.com/sourcemint/sm/~0.3.0"
-	},
-	"optionalMappings": {
-		"dev-darwin": "github.com/freedom-platform/dev-darwin/~0.1.0"
-	},
-	"scripts": {
-		"install": "node install.js",
-		"start-workspace": "node ./workspace.js --start",
-		"stop-workspace": "node ./workspace.js --stop"
-	}
+    "name": "freedom-platform-dev",
+    "version": "0.1.1",
+    "pm": "sm",
+    "bin": {
+        "workspace.js": "./workspace.js"
+    },
+    "mappings": {
+        "sm": "github.com/sourcemint/sm/~0.3.0"
+    },
+    "optionalMappings": {
+        "dev-darwin": "github.com/freedom-platform/dev-darwin/~0.1.0"
+    },
+    "scripts": {
+        "install": "node install.js",
+        "start-workspace": "node ./workspace.js --start",
+        "stop-workspace": "node ./workspace.js --stop"
+    }
 }
