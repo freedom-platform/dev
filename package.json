@@ -1,6 +1,6 @@
 {
     "name": "freedom-platform-dev",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "pm": "sm",
     "bin": {
         "toolchain.js": "./toolchain.js",
