@@ -4,6 +4,7 @@
     "publish": true,
     "pm": "sm",
     "bin": {
+        "sm": "./.sm/bin/sm",
         "workspace.js": "./workspace.js"
     },
     "mappings": {
