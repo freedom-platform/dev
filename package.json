@@ -4,11 +4,10 @@
     "publish": true,
     "pm": "sm",
     "bin": {
-        "toolchain.js": "./toolchain.js",
         "workspace.js": "./workspace.js"
     },
     "mappings": {
-        "sm": "github.com/sourcemint/sm/~0.3.0-pre"
+        "sm": "github.com/sourcemint/sm/~0.3.6-pre"
     },
     "optionalMappings": {
         "dev-darwin": "github.com/freedom-platform/dev-darwin/~0.1.0"

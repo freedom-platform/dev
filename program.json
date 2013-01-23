@@ -1,19 +1,7 @@
 {
 	"config": {
         "sm": {
-            "profile": "github.com/freedom-platform",
-            "toolchain": {
-				"vcs": "git",
-	            "os": "darwin",
-	            "platform": "node",
-	            "profile": "default",
-	            "paths": {
-	                "home": "~/.sm",
-	                "cache": "./cache",
-	                "profiles": "./profiles",
-	                "try": "./try"
-	            }            	
-            }
+            "profile": "github.com/freedom-platform"
         }
     }
 }

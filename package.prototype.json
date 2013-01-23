@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "start-workspace": "node ./.sm/bin/workspace.js --start",
+        "stop-workspace": "node ./.sm/bin/workspace.js --stop"
+    }
+}
