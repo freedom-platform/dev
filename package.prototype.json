@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "start-workspace": "node ./.sm/bin/workspace.js --start",
-        "stop-workspace": "node ./.sm/bin/workspace.js --stop"
+        "start-workspace": "./.sm/bin/devcomp --start-workspace",
+        "stop-workspace": "./.sm/bin/devcomp --stop-workspace"
     }
 }
