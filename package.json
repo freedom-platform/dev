@@ -16,7 +16,7 @@
     },
     "scripts": {
         "install": "node install.js",
-        "start-workspace": "./.sm/bin/devcomp --start-workspace",
-        "stop-workspace": "./.sm/bin/devcomp --stop-workspace"
+        "start-workspace": "./.sm/bin/devcomp --start",
+        "stop-workspace": "./.sm/bin/devcomp --stop"
     }
 }
