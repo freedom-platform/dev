@@ -5,18 +5,17 @@
     "pm": "sm",
     "bin": {
         "sm": "./.sm/bin/sm",
-        "devcomp": "./.sm/bin/devcomp"
+        "devcomp": "./bin/devcomp"
     },
     "mappings": {
-        "sm": "github.com/sourcemint/sm/~0.3.6-pre",
-        "devcomp": "github.com/devcomp/devcomp/~0.1.0"
+        "sm": "github.com/sourcemint/sm/~0.3.6-pre"
     },
     "optionalMappings": {
         "dev-darwin": "github.com/freedom-platform/dev-darwin/~0.1.0"
     },
     "scripts": {
         "install": "node install.js",
-        "start-workspace": "./.sm/bin/devcomp --start",
-        "stop-workspace": "./.sm/bin/devcomp --stop"
+        "start-workspace": "./bin/devcomp --start",
+        "stop-workspace": "./bin/devcomp --stop"
     }
 }
